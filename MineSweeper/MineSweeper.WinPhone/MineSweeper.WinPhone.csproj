@@ -156,8 +156,9 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\MineSweeper\MineSweeper.csproj">
-      <Name>MineSweeper</Name>
+    <ProjectReference Include="..\MineSweeper\MineSweeper.Forms.csproj">
+      <Name>MineSweeper.Forms</Name>
+      <Project>{98F13244-500E-4EFE-BF7C-A21181DABCF7}</Project>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
