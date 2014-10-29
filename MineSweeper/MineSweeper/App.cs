@@ -5,7 +5,7 @@ using System.Text;
 
 using Xamarin.Forms;
 
-namespace MineSweeper
+namespace MineSweeper.Forms
 {
     public class App
     {

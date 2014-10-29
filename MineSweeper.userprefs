@@ -1,0 +1,18 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.Nexus 4 (KitKat)" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="c:\BEKK\.NET Frontend\MineSweeper.Xamarin\MineSweeper\MineSweeper\obj\Debug\Game.xaml.g.cs">
+    <Files>
+      <File FileName="MineSweeper\MineSweeper\Game.xaml" Line="78" Column="78" />
+      <File FileName="MineSweeper.Core\FieldStatus.cs" Line="1" Column="1" />
+      <File FileName="MineSweeper\MineSweeper\App.cs" Line="27" Column="27" />
+      <File FileName="MineSweeper\MineSweeper\Game.xaml.cs" Line="11" Column="11" />
+      <File FileName="MineSweeper\MineSweeper\MineButton.cs" Line="22" Column="22" />
+      <File FileName="c:\BEKK\.NET Frontend\MineSweeper.Xamarin\MineSweeper\MineSweeper\obj\Debug\Game.xaml.g.cs" Line="1" Column="1" />
+      <File FileName="MineSweeper\MineSweeper.Android\MainActivity.cs" Line="24" Column="24" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
