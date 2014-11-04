@@ -83,6 +83,8 @@ namespace MineSweeper.Forms
                 button.IsEnabled = true;
                 button.BackgroundColor = Color.Gray;
                 button.Text = "";
+                button.TextColor = Color.Black;
+                button.Image = null;
             }
             _core = null;
             _minesLeft = mines;
@@ -116,27 +118,35 @@ namespace MineSweeper.Forms
                     break;
                 case FieldStatus.MinesNearby1:
                     button.Text = "1";
+                    button.TextColor = Color.Blue;
                     break;
                 case FieldStatus.MinesNearby2:
                     button.Text = "2";
+                    button.TextColor = Color.Green;
                     break;
                 case FieldStatus.MinesNearby3:
                     button.Text = "3";
+                    button.TextColor = Color.Red;
                     break;
                 case FieldStatus.MinesNearby4:
                     button.Text = "4";
+                    button.TextColor = Color.FromHex("001085");
                     break;
                 case FieldStatus.MinesNearby5:
                     button.Text = "5";
+                    button.TextColor = Color.FromHex("850000");
                     break;
                 case FieldStatus.MinesNearby6:
                     button.Text = "6";
+                    button.TextColor = Color.FromHex("008585");
                     break;
                 case FieldStatus.MinesNearby7:
                     button.Text = "7";
+                    button.TextColor = Color.Purple;
                     break;
                 default:
                     button.Text = "8";
+                    button.TextColor = Color.Black;
                     break;
             }
             
@@ -159,13 +169,13 @@ namespace MineSweeper.Forms
             {
                 _minesLeft--;
                 MinesLeftLabel.Text = String.Format(MinesLeftText, _minesLeft > 0 ? _minesLeft : 0);
-                button.Text = "F";
+                button.Image = "flag.png";
             }
             else
             {
                 _minesLeft++;
                 MinesLeftLabel.Text = String.Format(MinesLeftText, _minesLeft > 0 ? _minesLeft : 0);
-                button.Text = "";
+                button.Image = null;
             }
         }
 
@@ -181,16 +191,16 @@ namespace MineSweeper.Forms
                 {
                     if(_core.HasMine(b.XPosition, b.YPosition))
                     {
-                        b.Text = "M";
+                        b.Image = "mine.png";
                     }
                 }
                 else if(!_core.HasMine(b.XPosition, b.YPosition))
                 {
-                    b.Text = "X";
+                    b.Image = "nomine.png";
                 }
             }
 
-            button.Text = "E";
+            button.Image = "explodedmine.png";
             DisplayAlert("Game over", "BOOM! You lose!", "OK");
         }
 
@@ -204,7 +214,7 @@ namespace MineSweeper.Forms
                 if(!_core.IsMarked(button.XPosition, button.YPosition) &&
                     _core.HasMine(button.XPosition, button.YPosition))
                 {
-                    button.Text = "F";
+                    button.Image = "flag.png";
                 }
             }
 

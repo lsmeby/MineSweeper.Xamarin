@@ -79,10 +79,4 @@
       <Name>MineSweeper.Core</Name>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup>
-    <Content Include="Images\explodedmine.gif" />
-    <Content Include="Images\flag.gif" />
-    <Content Include="Images\mine.gif" />
-    <Content Include="Images\nomine.gif" />
-  </ItemGroup>
 </Project>
