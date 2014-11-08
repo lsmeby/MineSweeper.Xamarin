@@ -79,4 +79,19 @@
       <Name>MineSweeper.Core</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Images\1.png" />
+    <EmbeddedResource Include="Images\2.png" />
+    <EmbeddedResource Include="Images\3.png" />
+    <EmbeddedResource Include="Images\4.png" />
+    <EmbeddedResource Include="Images\5.png" />
+    <EmbeddedResource Include="Images\6.png" />
+    <EmbeddedResource Include="Images\7.png" />
+    <EmbeddedResource Include="Images\8.png" />
+    <EmbeddedResource Include="Images\blank.png" />
+    <EmbeddedResource Include="Images\explodedmine.png" />
+    <EmbeddedResource Include="Images\flag.png" />
+    <EmbeddedResource Include="Images\mine.png" />
+    <EmbeddedResource Include="Images\nomine.png" />
+  </ItemGroup>
 </Project>

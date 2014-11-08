@@ -82,10 +82,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Properties\AndroidManifest.xml" />
-    <AndroidResource Include="Resources\Drawable\flag.png" />
-    <AndroidResource Include="Resources\Drawable\mine.png" />
-    <AndroidResource Include="Resources\Drawable\explodedmine.png" />
-    <AndroidResource Include="Resources\Drawable\nomine.png" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\MineSweeper\MineSweeper.Forms.csproj">

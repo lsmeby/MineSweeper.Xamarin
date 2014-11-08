@@ -3,7 +3,7 @@ using System;
 
 namespace MineSweeper.Forms.CustomControls
 {
-    class MineButton : Button
+    class MineButton : Image
     {
         public int XPosition { get; set; }
         public int YPosition { get; set; }

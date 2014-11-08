@@ -19,8 +19,8 @@ namespace MineSweeper.WinPhone
         {
             InitializeComponent();
 
-            Forms.Init();
-            Content = MineSweeper.App.GetMainPage().ConvertPageToUIElement(this);
+            Xamarin.Forms.Forms.Init();
+            Content = MineSweeper.Forms.App.GetMainPage().ConvertPageToUIElement(this);
         }
     }
 }
